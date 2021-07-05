@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #bd6b0e;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.kidsMagazine{
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #333;
+  font-size: 30px;
+  padding: 2% 5%;
+}
+.typehere{
+  font-size: 25px;
+    color: #333;
+    position: relative;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-70px);
+    padding-top: 10px;
+}
+
+.file__upload {
+  height: 56vh;
+  margin: 20px;
+  /* box-shadow: 0 0 5px rgb(0 0 0 / 30%); */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  justify-content: center;
+  position: relative;
+  /* left: 50%; */
+  width: auto;
+  margin: 75px;
+  margin-top: 0;
+}
+
+.file__upload .header {
+    width: 90%;
+    height: 110px;
+    background: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    top: 26%;
+    transform: translateY(-57%);
+    left: 65px;
+}
+
+.file__upload .header p {
+    color: #FFF;
+}
+
+.file__upload .header p i.fa {
+    margin-right: 10px;
+}
+
+.file__upload .header p span {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.file__upload .header p span span {
+    font-weight: 600;
+}
+
+.file__upload .body {
+  background: #FFF;
+  width: 90%;
+  /* height: calc(100% - 145px); */
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 400px;
+  position: relative;
+  top: 44%;
+  transform: translateY(-50%);
+  left: 65px;
+}
+
+.file__upload .body input[type="file"] {
+    display: none;
+}
+
+.file__upload .body i.fa {
+    color: #d3d3d3;
+    margin-bottom: 20px;
+}
+
+.file__upload .body p strong {
+    color: #333;
+}
+
+.file__upload .body p span {
+    color: #333;
+    text-decoration: underline;
+}
+
+.uploadButton{
+  padding: 20px;
+  font-size: 15px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.5s all;
+  color: #fafafa;
+  background: linear-gradient(to right, #333, #746969);
+}
+
+.uploadButton i{
+  padding-right: 20px; 
+}
+
+.uploadButton span{
+  font-size: 20px;
+}
+
+.uploadButton:hover{
+  background: linear-gradient(to right,#746969, #333 );
+}
